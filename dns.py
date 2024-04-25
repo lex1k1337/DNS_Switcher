@@ -116,7 +116,6 @@ def main():
     show_presets_button.grid(row=8, column=0, columnspan=2)
 
     window.mainloop()
-    #qwerty
 
 
 if __name__ == "__main__":
