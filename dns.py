@@ -98,7 +98,9 @@ def main():
     create_button.grid(row=3, column=0, columnspan=2)
 
     current_dns_button = tk.Button(window, text="Show Current DNS", command=lambda: messagebox.showinfo("Current DNS",
-                                                                                                        f"Current DNS servers: {', '.join(get_current_dns())}"))
+                                                                                                        f"Current DNS "
+                                                                                                        f"servers: "
+                                                                                                        f"{', '.join(get_current_dns())}"))
     current_dns_button.grid(row=4, column=0, columnspan=2)
 
     automatic_dns_button = tk.Button(window, text="Apply Automatic DNS", command=apply_automatic_dns)
